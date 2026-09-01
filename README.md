@@ -1,2 +1,2 @@
-# exercicios---programa-o
+# exercicios---poo
 Repositório para armazenar os exercicios da disciplina
