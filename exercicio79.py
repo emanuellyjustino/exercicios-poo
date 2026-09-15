@@ -1,4 +1,10 @@
-valores = [5, 2, 5, 8, 3]
+valores = []
+
+quantidade = int(input("Quantos números você quer digitar? "))
+
+for i in range(quantidade):
+    numero = int(input("Digite um número: "))
+    valores.append(numero)
 
 lista = []
 
