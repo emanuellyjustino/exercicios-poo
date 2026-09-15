@@ -1,4 +1,8 @@
-valores = [5, 2, 8, 1, 6]
+valores = []
+
+for i in range(5):
+    numero = int(input("Digite um número: "))
+    valores.append(numero)
 
 lista = []
 
