@@ -1,4 +1,4 @@
-expressao = "(2 + 3) * (5 - 1)"
+expressao = input("Digite uma expressão: ")
 
 pilha = []
 
