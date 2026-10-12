@@ -1,0 +1,78 @@
+
+def valores_unicos(colecao):
+    resultado = []
+
+    for valor in colecao:
+        if valor not in resultado:
+            resultado.append(valor)
+
+    resultado.sort()
+    return resultado
+
+
+##########################################
+
+
+def diferenca(a, b):
+    resultado = []
+
+    for valor in a:
+        if valor not in b:
+            if valor not in resultado:
+                resultado.append(valor)
+
+    resultado.sort()
+    return resultado
+
+
+##########################################
+
+
+def uniao(a, b):
+    resultado = []
+
+    for valor in a:
+        if valor not in resultado:
+            resultado.append(valor)
+
+    for valor in b:
+        if valor not in resultado:
+            resultado.append(valor)
+
+    resultado.sort()
+    return resultado
+
+
+##########################################
+
+
+def intersecao(a, b):
+    resultado = []
+
+    for valor in a:
+        if valor in b:
+            if valor not in resultado:
+                resultado.append(valor)
+
+    resultado.sort()
+    return resultado
+
+
+##########################################
+
+
+def diferenca_simetrica(a, b):
+    resultado = []
+
+    for valor in a:
+        if valor not in b:
+            if valor not in resultado:
+                resultado.append(valor)
+
+    for valor in b:
+        if valor not in a:
+            if valor not in resultado:
+                resultado.append(valor)
+
+    resultado.sort()
+    return resultado
