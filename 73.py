@@ -12,8 +12,8 @@ print(times)
 ranking = int(input('\nQuantos primeiros colocados deseja ver? '))
 print(times[:ranking])
 
-posicao = int(input('\nQuantos primeiros colocados deseja mostrar? '))
-print(times[:posicao])
+posicao = int(input('\nQuantos ultimos colocados deseja mostrar? '))
+print(times[posicao+1:])
 
 time = input('\nQual time deseja consultar? ')
 
